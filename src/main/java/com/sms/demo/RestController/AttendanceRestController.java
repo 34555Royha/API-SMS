@@ -41,7 +41,7 @@ public class AttendanceRestController {
     @GetMapping("/")
     @ApiOperation(value = "List",authorizations = {@Authorization(value = "BasicAuth")})
     public ResponseEntity<?> List(){
-        // hello rithy testing push code
+        // hello rithy testing push codettttt
         Map<String, Object> response = new HashMap<>();
         List<AttendList> attendances = this.attendanceService.List();
 
